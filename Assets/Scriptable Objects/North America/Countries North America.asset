@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf31756b767bf24496395dfcea31e9e, type: 3}
+  m_Name: Countries North America
+  m_EditorClassIdentifier: 
+  countries:
+  - {fileID: 11400000, guid: e779342fc0814c844bdccb061cebf0f5, type: 2}
+  - {fileID: 11400000, guid: 4cbbefb8baa3ddc43b5e8870edfa16bd, type: 2}
+  - {fileID: 11400000, guid: a3aa60c16a837174eadb9439f509fa88, type: 2}
+  - {fileID: 11400000, guid: 6b9598e63d5be8f42926190e4a567d7e, type: 2}
+  - {fileID: 11400000, guid: 53a66987e5fe43143ac815b0dacd8ca2, type: 2}
+  - {fileID: 11400000, guid: 9539337a778cef04db18f56010f8e5a4, type: 2}
+  - {fileID: 11400000, guid: ba803237e79fbf64eb3750a5d3ff258e, type: 2}
+  - {fileID: 11400000, guid: db1e8c11841cb034ebc1b69a982e4a92, type: 2}
+  - {fileID: 11400000, guid: e14deb4b1791b8148803125557d4a698, type: 2}
+  - {fileID: 11400000, guid: 6a1ede8e1e3436641b28cc7c762e0df6, type: 2}
+  - {fileID: 11400000, guid: 1c604dc261e3e3f4d9280117b504df6d, type: 2}
+  - {fileID: 11400000, guid: 0387317694079044fbcdde2de70cae54, type: 2}
+  - {fileID: 11400000, guid: 0b8eceaba93d79745a301f5a9f5139f7, type: 2}
+  - {fileID: 11400000, guid: bac44840fabb6f541b62d28f5b21fbb8, type: 2}
+  - {fileID: 11400000, guid: 489a2b3dce451de44a6a801638547749, type: 2}
+  - {fileID: 11400000, guid: 79e6ef8750c10854e8198e942902095f, type: 2}
+  - {fileID: 11400000, guid: 4b71a0ea83a0d994b96f92c62e4c8e6d, type: 2}
+  - {fileID: 11400000, guid: 0cf065e1154b1bf45b9f761d8882c77f, type: 2}
+  - {fileID: 11400000, guid: f3215a1bbeca7f8448e99c34f5664c1e, type: 2}
+  - {fileID: 11400000, guid: f6316a3bc3a334c4f8dc13bdb11ca55f, type: 2}
+  - {fileID: 11400000, guid: 58ea766fc21874b47991ca5faa5f7284, type: 2}
+  - {fileID: 11400000, guid: 0852bcef209e98b41b7c6a54acc3c5b5, type: 2}

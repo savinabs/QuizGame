@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: c0846da0e9c7a52438f9d43c6909b1f8
+  - enabled: 1
+    path: Assets/Scenes/Capitals.unity
+    guid: 04a6f8fb1f269b4498b6c5d3aab6634b
+  - enabled: 1
+    path: Assets/Scenes/Flags.unity
+    guid: 7ea5cb9d45584374eadef45fdeb17f3d
+  - enabled: 1
+    path: Assets/Scenes/Currency.unity
+    guid: 8bbff9601c8b3934caa7d12c32f109fe
+  - enabled: 1
+    path: Assets/Scenes/Continents.unity
+    guid: 7c6233cdf5526a94486ffff05cc901ed
+  - enabled: 1
+    path: Assets/Scenes/Continents Capitals/Africa.unity
+    guid: d5ef39ca9d216a845bac0adc263f6e72
+  - enabled: 1
+    path: Assets/Scenes/Continents Capitals/Asia.unity
+    guid: 72c86dbf245e0f04a9c50bd2504e770d
+  - enabled: 1
+    path: Assets/Scenes/Continents Capitals/Europe.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Continents Capitals/North America.unity
+    guid: 0168ae7f6e800794abc242fa576ea27c
+  - enabled: 1
+    path: Assets/Scenes/Continents Capitals/Oceania and Australia.unity
+    guid: 9c0782d0a92b1864f9961a8920b18f80
+  - enabled: 1
+    path: Assets/Scenes/Continents Capitals/South America.unity
+    guid: 4d8d0ad066bfded488f5a58bd1a0ac29
+  - enabled: 1
+    path: Assets/Scenes/Continents Capitals/All.unity
+    guid: 3e792329b526b2647ada7f6985b816f7
+  - enabled: 1
+    path: Assets/Scenes/Continents Flags/Africa flags.unity
+    guid: 31ec25f54b6880543a7e5fd9e1a7a192
+  - enabled: 1
+    path: Assets/Scenes/Continents Flags/Asia flags.unity
+    guid: 36a6765942d33724699993c61bffa672
+  - enabled: 1
+    path: Assets/Scenes/Continents Flags/Europe flags.unity
+    guid: b7421116230065d41a2a0617e7e74564
+  - enabled: 1
+    path: Assets/Scenes/Continents Flags/North America flags.unity
+    guid: 2a0ce17ea0d2b664db0c46183494b5c0
+  - enabled: 1
+    path: Assets/Scenes/Continents Flags/Oceania and Australia flags.unity
+    guid: 61063e01bbb56b441aa3d2fa62f7b8af
+  - enabled: 1
+    path: Assets/Scenes/Continents Flags/South America flags.unity
+    guid: 2c679093a567f79458772585d7dbb0e6
+  - enabled: 1
+    path: Assets/Scenes/Continents Flags/All flags.unity
+    guid: 4322693829d012b438a49ba88fa71417
+  - enabled: 1
+    path: Assets/Scenes/Continents Currency/Africa currency.unity
+    guid: a4e296ef8fbd9624ea059d043d1fa6e7
+  - enabled: 1
+    path: Assets/Scenes/Continents Currency/Asia currency.unity
+    guid: 7d36206c0cc79ea4a9629b54e2195001
+  - enabled: 1
+    path: Assets/Scenes/Continents Currency/Europe currency.unity
+    guid: e5536082bab5fad4190955d4c33027c5
+  - enabled: 1
+    path: Assets/Scenes/Continents Currency/North America currency.unity
+    guid: c6d3b221b004fc84cb8e85d31d1b8575
+  - enabled: 1
+    path: Assets/Scenes/Continents Currency/Oceania and Australia currency.unity
+    guid: 7707d45ff7965da4e9c50d9f7af27d18
+  - enabled: 1
+    path: Assets/Scenes/Continents Currency/South America currency.unity
+    guid: 4330959efb9241b4da990258654673fc
+  - enabled: 1
+    path: Assets/Scenes/Continents Currency/All currency.unity
+    guid: a853a560581995c4d9945c53b1823595
+  m_configObjects: {}

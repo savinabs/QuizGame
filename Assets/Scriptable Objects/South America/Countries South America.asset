@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf31756b767bf24496395dfcea31e9e, type: 3}
+  m_Name: Countries South America
+  m_EditorClassIdentifier: 
+  countries:
+  - {fileID: 11400000, guid: 715da9e9725fc954690f3c5d02680b88, type: 2}
+  - {fileID: 11400000, guid: d477fcfc6cbea0f41b32d4f11a8e351f, type: 2}
+  - {fileID: 11400000, guid: c6f4c8e0488958b4abd7f80f0f08b0b5, type: 2}
+  - {fileID: 11400000, guid: 8e70d39d4419ce1409618102a5f9d40e, type: 2}
+  - {fileID: 11400000, guid: d5f753e256059db4e86eece3489f000c, type: 2}
+  - {fileID: 11400000, guid: 349187d93e04a14478c2c93a98ce1c77, type: 2}
+  - {fileID: 11400000, guid: 83241a940d699ad408e6177cf6b97fb8, type: 2}
+  - {fileID: 11400000, guid: 4ebd115aa45dedb498c91fe21981f4d0, type: 2}
+  - {fileID: 11400000, guid: 7569e608c9bf549468240d20721120c7, type: 2}
+  - {fileID: 11400000, guid: e7d67430ddaba504381eab154f85d43f, type: 2}
+  - {fileID: 11400000, guid: 905ce83ae461a4443a3585ebf5cc809b, type: 2}
+  - {fileID: 11400000, guid: 9675c8cb911492f40a1152d3e35d7cda, type: 2}
