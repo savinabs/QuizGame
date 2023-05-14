@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static Unity.Burst.Intrinsics.X86.Avx;
 
 public class Quiz : MonoBehaviour
 {
@@ -73,25 +74,36 @@ public class Quiz : MonoBehaviour
         timer = FindAnyObjectByType<Timer>();
         score = FindAnyObjectByType<Score>();
 
-        if (SceneManager.GetActiveScene().name == "Continents")
+        if (numberOfQuestions > NumberOfCountriesInList() || numberOfQuestions <=0 ) numberOfQuestions = NumberOfCountriesInList();
+
+
+        int rand1, rand2;
+        for (int k = 0; k < Mathf.Abs(numberOfQuestions); k++)
         {
-            int rand1, rand2;
-            for (int k = 0; k < Mathf.Abs(numberOfQuestions); k++)
-            {
-                rand1 = Random.Range(0, listOfLists.Count);
-                rand2 = Random.Range(0, listOfLists[rand1].countries.Count);
-                countries.Add(listOfLists[rand1].countries[rand2]);
-                
-            }
+            rand1 = Random.Range(0, listOfLists.Count);
+            rand2 = Random.Range(0, listOfLists[rand1].countries.Count);
+            countries.Add(listOfLists[rand1].countries[rand2]);
+
         }
-        else
-        {
-            for (int i = 0; i < listOfLists.Count; i++)
-            {
-                for (int j = 0; j < listOfLists[i].countries.Count; j++)
-                    countries.Add(listOfLists[i].countries[j]);
-            }
-        }
+        /* if (SceneManager.GetActiveScene().name == "Continents")
+         {
+             int rand1, rand2;
+             for (int k = 0; k < Mathf.Abs(numberOfQuestions); k++)
+             {
+                 rand1 = Random.Range(0, listOfLists.Count);
+                 rand2 = Random.Range(0, listOfLists[rand1].countries.Count);
+                 countries.Add(listOfLists[rand1].countries[rand2]);
+
+             }
+         }
+         else
+         {
+             for (int i = 0; i < listOfLists.Count; i++)
+             {
+                 for (int j = 0; j < listOfLists[i].countries.Count; j++)
+                     countries.Add(listOfLists[i].countries[j]);
+             }
+         }*/
         progress.maxValue = countries.Count;
         progress.value = 0;
     }
@@ -371,5 +383,16 @@ public class Quiz : MonoBehaviour
     void SetHintButtonInteractability(bool isInteractable)
     {
         hint.interactable = isInteractable;
+    }
+
+    int NumberOfCountriesInList()
+    {
+        int tmp=0;
+        for (int i = 0; i < listOfLists.Count; i++)
+        {
+            for (int j = 0; j < listOfLists[i].countries.Count; j++)
+                tmp++;
+        }
+        return tmp;
     }
 }
