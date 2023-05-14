@@ -1737,6 +1737,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e588fd2ebfd07a54db6f4c7fa42e80fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quiz: {fileID: 1245627186}
+  finalScoreScreen: {fileID: 1530564788}
 --- !u!4 &1221537381
 Transform:
   m_ObjectHideFlags: 0

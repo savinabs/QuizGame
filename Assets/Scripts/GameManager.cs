@@ -3,27 +3,30 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField]
     Quiz quiz;
+    [SerializeField]
     FinalScoreScreen finalScoreScreen;
-
-    void Awake()
-    {
-        quiz = FindObjectOfType<Quiz>();
-        finalScoreScreen = FindObjectOfType<FinalScoreScreen>();
-    }
 
     void Start()
     {
-        quiz.gameObject.SetActive(true);
-        finalScoreScreen.gameObject.SetActive(false);
+        if (quiz != null && finalScoreScreen != null)
+        {
+            quiz.gameObject.SetActive(true);
+            finalScoreScreen.gameObject.SetActive(false);
+        }
     }
 
     void Update()
     {
-        if (quiz.isComplete)
+        CloseGame();
+        if (quiz != null && finalScoreScreen != null)
         {
-            quiz.gameObject.SetActive(false);
-            ActiveFinalScoreScreen();
+            if (quiz.isComplete)
+            {
+                quiz.gameObject.SetActive(false);
+                ActiveFinalScoreScreen();
+            }
         }
     }
 
@@ -41,5 +44,11 @@ public class GameManager : MonoBehaviour
     public void OpenScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    void CloseGame()
+    {
+        if (Input.GetKeyDown("escape"))
+            Application.Quit();
     }
 }

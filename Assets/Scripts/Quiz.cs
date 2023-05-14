@@ -355,10 +355,14 @@ public class Quiz : MonoBehaviour
         if (timer.GetIsPaused())
         {
             buttonToPause.image.sprite = resumeSprite;
+            SetButtonInteractability(false);
+            SetHintButtonInteractability(false);
         }
         else
         {
             buttonToPause.image.sprite = pauseSprite;
+            SetButtonInteractability(true);
+            SetHintButtonInteractability(true);
         }
     }
 
